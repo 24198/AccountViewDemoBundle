@@ -1,0 +1,17 @@
+datagrid:
+    tfone-account-cases-grid:
+        extends: base-case-grid
+        filters:
+            columns:
+                relatedContact:
+                    label: orocrm.case.datagrid.related_contact.label
+                    type: string
+                    data_name: relatedContactName
+                    enabled: false
+        source:
+            query:
+                where:
+                    and:
+                        - relatedAccount.id = :id
+            bind_parameters:
+                - id

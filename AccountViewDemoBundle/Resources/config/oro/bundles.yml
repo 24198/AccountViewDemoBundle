@@ -1,0 +1,2 @@
+bundles:
+    - { name: Tfone\Bundle\AccountViewDemoBundle\TfoneAccountViewDemoBundle, priority: 25 }

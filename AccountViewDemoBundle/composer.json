@@ -1,0 +1,24 @@
+{
+    "name": "tfone/accountview-demo",
+    "description": "OroCRM account view demo bundle",
+    "homepage": "https://github.com/24198/AccountViewDemoBundle.git",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "[24198] J. Casteleijn",
+            "homepage": "https://github.com/24198/"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "Tfone\\Bundle\\AccountViewDemoBundle": "src/"
+        }
+    },
+    "target-dir": "src/Tfone/Bundle/AccountViewDemoBundle",
+    "require": {
+        "php": ">=5.5.9",
+        "oro/crm": "1.9.*"
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
